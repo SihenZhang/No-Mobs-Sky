@@ -1,0 +1,450 @@
+{
+  "recipes": [
+    {
+      "id": "natura:colored_grass",
+      "meta": 0,
+      "behavior": "meta_specific",
+      "rewards": [
+        {
+          "id": "natura:overworld_sapling",
+          "meta": 1,
+          "amount": 1,
+          "baseChance": 1
+        },
+		{
+          "id": "natura:overworld_sapling2",
+          "meta": 0,
+          "amount": 1,
+          "baseChance": 1
+        },
+		{
+          "id": "natura:overworld_sapling",
+          "meta": 2,
+          "amount": 1,
+          "baseChance": 10
+        },
+		{
+          "id": "natura:overworld_berrybush_raspberry",
+          "meta": 0,
+          "amount": 1,
+          "baseChance": 10
+        },
+		{
+          "id": "natura:overworld_berrybush_blueberry",
+          "meta": 0,
+          "amount": 1,
+          "baseChance": 10
+        },
+		{
+          "id": "natura:overworld_berrybush_blackberry",
+          "meta": 0,
+          "amount": 1,
+          "baseChance": 10
+        },
+		{
+          "id": "natura:overworld_berrybush_maloberry",
+          "meta": 0,
+          "amount": 1,
+          "baseChance": 10
+        },
+		{
+          "id": "harvestcraft:almond_sapling",
+          "meta": 0,
+          "amount": 1,
+          "baseChance": 10
+        },
+		{
+          "id": "harvestcraft:cashew_sapling",
+          "meta": 0,
+          "amount": 1,
+          "baseChance": 10
+        },
+		{
+          "id": "harvestcraft:cinnamon_sapling",
+          "meta": 0,
+          "amount": 1,
+          "baseChance": 10
+        },
+		{
+          "id": "harvestcraft:coconut_sapling",
+          "meta": 0,
+          "amount": 1,
+          "baseChance": 10
+        },
+		{
+          "id": "harvestcraft:date_sapling",
+          "meta": 0,
+          "amount": 1,
+          "baseChance": 10
+        },
+		{
+          "id": "harvestcraft:fig_sapling",
+          "meta": 0,
+          "amount": 1,
+          "baseChance": 10
+        },
+		{
+          "id": "harvestcraft:maple_sapling",
+          "meta": 0,
+          "amount": 1,
+          "baseChance": 10
+        },
+		{
+          "id": "harvestcraft:nutmeg_sapling",
+          "meta": 0,
+          "amount": 1,
+          "baseChance": 10
+        },
+		{
+          "id": "harvestcraft:pecan_sapling",
+          "meta": 0,
+          "amount": 1,
+          "baseChance": 10
+        },
+		{
+          "id": "harvestcraft:plum_sapling",
+          "meta": 0,
+          "amount": 1,
+          "baseChance": 10
+        },
+		{
+          "id": "harvestcraft:walnut_sapling",
+          "meta": 0,
+          "amount": 1,
+          "baseChance": 10
+        },
+		{
+          "id": "harvestcraft:avocado_sapling",
+          "meta": 0,
+          "amount": 1,
+          "baseChance": 10
+        },
+		{
+          "id": "harvestcraft:banana_sapling",
+          "meta": 0,
+          "amount": 1,
+          "baseChance": 10
+        },
+		{
+          "id": "harvestcraft:chestnut_sapling",
+          "meta": 0,
+          "amount": 1,
+          "baseChance": 10
+        },
+		{
+          "id": "harvestcraft:durian_sapling",
+          "meta": 0,
+          "amount": 1,
+          "baseChance": 10
+        },
+		{
+          "id": "harvestcraft:gooseberry_sapling",
+          "meta": 0,
+          "amount": 1,
+          "baseChance": 10
+        },
+		{
+          "id": "harvestcraft:lemon_sapling",
+          "meta": 0,
+          "amount": 1,
+          "baseChance": 10
+        },
+		{
+          "id": "harvestcraft:lime_sapling",
+          "meta": 0,
+          "amount": 1,
+          "baseChance": 10
+        },
+		{
+          "id": "harvestcraft:olive_sapling",
+          "meta": 0,
+          "amount": 1,
+          "baseChance": 10
+        },
+		{
+          "id": "harvestcraft:papaya_sapling",
+          "meta": 0,
+          "amount": 1,
+          "baseChance": 10
+        },
+		{
+          "id": "harvestcraft:pear_sapling",
+          "meta": 0,
+          "amount": 1,
+          "baseChance": 10
+        },
+		{
+          "id": "harvestcraft:peppercorn_sapling",
+          "meta": 0,
+          "amount": 1,
+          "baseChance": 10
+        },
+		{
+          "id": "harvestcraft:pistachio_sapling",
+          "meta": 0,
+          "amount": 1,
+          "baseChance": 10
+        },
+		{
+          "id": "harvestcraft:starfruit_sapling",
+          "meta": 0,
+          "amount": 1,
+          "baseChance": 10
+        },
+		{
+          "id": "harvestcraft:vanillabean_sapling",
+          "meta": 0,
+          "amount": 1,
+          "baseChance": 10
+        }
+      ]
+    },
+    {
+      "id": "natura:nether_tainted_soil",
+      "meta": 0,
+      "behavior": "meta_ignored",
+      "rewards": [
+        {
+          "id": "natura:nether_berrybush_blightberry",
+          "meta": 0,
+          "amount": 1,
+          "baseChance": 2
+        },
+		{
+          "id": "natura:nether_berrybush_duskberry",
+          "meta": 0,
+          "amount": 1,
+          "baseChance": 2
+        },
+		{
+          "id": "natura:nether_berrybush_skyberry",
+          "meta": 0,
+          "amount": 1,
+          "baseChance": 2
+        },
+		{
+          "id": "natura:nether_berrybush_stingberry",
+          "meta": 0,
+          "amount": 1,
+          "baseChance": 2
+        },
+		{
+          "id": "harvestcraft:apple_sapling",
+          "meta": 0,
+          "amount": 1,
+          "baseChance": 10
+        },
+		{
+          "id": "harvestcraft:apricot_sapling",
+          "meta": 0,
+          "amount": 1,
+          "baseChance": 10
+        },
+		{
+          "id": "harvestcraft:cherry_sapling",
+          "meta": 0,
+          "amount": 1,
+          "baseChance": 10
+        },
+		{
+          "id": "harvestcraft:dragonfruit_sapling",
+          "meta": 0,
+          "amount": 1,
+          "baseChance": 10
+        },
+		{
+          "id": "harvestcraft:grapefruit_sapling",
+          "meta": 0,
+          "amount": 1,
+          "baseChance": 10
+        },
+		{
+          "id": "harvestcraft:mango_sapling",
+          "meta": 0,
+          "amount": 1,
+          "baseChance": 10
+        },
+		{
+          "id": "harvestcraft:orange_sapling",
+          "meta": 0,
+          "amount": 1,
+          "baseChance": 10
+        },
+		{
+          "id": "harvestcraft:paperbark_sapling",
+          "meta": 0,
+          "amount": 1,
+          "baseChance": 10
+        },
+		{
+          "id": "harvestcraft:peach_sapling",
+          "meta": 0,
+          "amount": 1,
+          "baseChance": 10
+        },
+		{
+          "id": "harvestcraft:persimmon_sapling",
+          "meta": 0,
+          "amount": 1,
+          "baseChance": 10
+        },
+		{
+          "id": "harvestcraft:pomegranate_sapling",
+          "meta": 0,
+          "amount": 1,
+          "baseChance": 10
+        },
+		{
+          "id": "natura:overworld_sapling",
+          "meta": 0,
+          "amount": 1,
+          "baseChance": 10
+        },
+		{
+          "id": "natura:overworld_sapling",
+          "meta": 3,
+          "amount": 1,
+          "baseChance": 10
+        },
+		{
+          "id": "natura:overworld_sapling2",
+          "meta": 1,
+          "amount": 1,
+          "baseChance": 10
+        },
+		{
+          "id": "natura:overworld_sapling2",
+          "meta": 2,
+          "amount": 1,
+          "baseChance": 10
+        },
+		{
+          "id": "natura:overworld_sapling2",
+          "meta": 3,
+          "amount": 1,
+          "baseChance": 10
+        },
+		{
+          "id": "natura:redwood_sapling",
+          "meta": 3,
+          "amount": 1,
+          "baseChance": 10
+        }
+      ]
+    },
+	{
+      "id": "minecraft:soul_sand",
+      "meta": 0,
+      "behavior": "meta_ignored",
+      "rewards": [
+        {
+          "id": "natura:nether_sapling",
+          "meta": 0,
+          "amount": 1,
+          "baseChance": 1
+        },
+		{
+          "id": "natura:nether_sapling",
+          "meta": 1,
+          "amount": 1,
+          "baseChance": 1
+        },
+		{
+          "id": "natura:nether_sapling",
+          "meta": 2,
+          "amount": 1,
+          "baseChance": 1
+        },
+		{
+          "id": "natura:nether_sapling2",
+          "meta": 0,
+          "amount": 1,
+          "baseChance": 1
+       },
+	   {
+          "id": "natura:nether_heat_sand",
+          "meta": 0,
+          "amount": 1,
+          "baseChance": 3
+       },
+	   {
+          "id": "natura:nether_tainted_soil",
+          "meta": 0,
+          "amount": 1,
+          "baseChance": 3
+       }
+      ]
+    },
+	{
+      "id": "tconstruct:slime_congealed",
+      "meta": 0,
+      "behavior": "meta_specific",
+      "rewards": [
+        {
+          "id": "tconstruct:slime_sapling",
+          "meta": 0,
+          "amount": 1,
+          "baseChance": 5
+        }
+      ]
+    },
+	{
+      "id": "tconstruct:slime_congealed",
+      "meta": 2,
+      "behavior": "meta_specific",
+      "rewards": [
+        {
+          "id": "tconstruct:slime_sapling",
+          "meta": 1,
+          "amount": 1,
+          "baseChance": 5
+        }
+      ]
+    },
+	{
+      "id": "minecraft:magma",
+      "meta": 0,
+      "behavior": "meta_ignored",
+      "rewards": [
+        {
+          "id": "tconstruct:slime_sapling",
+          "meta": 2,
+          "amount": 1,
+          "baseChance": 5
+        }
+      ]
+    },
+	{
+      "id": "minecraft:dirt",
+      "meta": 0,
+      "behavior": "meta_ignored",
+      "rewards": [
+        {
+          "id": "minefactoryreloaded:rubberwood_sapling",
+          "meta": 0,
+          "amount": 1,
+          "baseChance": 2
+        }
+      ]
+    },
+	{
+      "id": "minecraft:gravel",
+      "meta": 0,
+      "behavior": "meta_ignored",
+      "rewards": [
+        {
+          "id": "actuallyadditions:itemMisc",
+          "meta": 5,
+          "amount": 1,
+          "baseChance": 8
+        },
+		{
+          "id": "evilcraft:darkGem",
+          "meta": 0,
+          "amount": 1,
+          "baseChance": 10
+        }
+      ]
+    }
+  ]
+}

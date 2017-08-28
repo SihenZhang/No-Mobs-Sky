@@ -1,0 +1,48 @@
+{
+  "entries": [
+    {
+      "name": "yellorium",
+      "color": "D7EF00",
+      "rarity": 2,
+      "hasGravel": true,
+      "hasNether": true,
+      "hasEnd": false,
+      "ingot": "bigreactors:ingotmetals",
+      "ingotMeta": 0,
+      "oreDictNames": []
+    },
+	{
+      "name": "dilithium",
+      "color": "DDCECB",
+      "rarity": 5,
+      "hasGravel": false,
+      "hasNether": false,
+      "hasEnd": true,
+      "ingot": "libvulpes:productdust",
+      "ingotMeta": 0,
+      "oreDictNames": []
+    },
+	{
+      "name": "titanium",
+      "color": "965685",
+      "rarity": 8,
+      "hasGravel": true,
+      "hasNether": false,
+      "hasEnd": true,
+      "ingot": "libvulpes:productingot",
+      "ingotMeta": 7,
+      "oreDictNames": []
+    },
+	{
+      "name": "iridium",
+      "color": "C0BFDA",
+      "rarity": 8,
+      "hasGravel": true,
+      "hasNether": false,
+      "hasEnd": true,
+      "ingot": "thermalfoundation:material",
+      "ingotMeta": 135,
+      "oreDictNames": []
+    }
+  ]
+}

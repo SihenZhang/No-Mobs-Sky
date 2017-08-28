@@ -1,0 +1,18 @@
+{
+  "recipes": [
+    {
+      "fluid": "water",
+      "input": "tconstruct:slime_congealed",
+      "inputMeta": 0,
+      "output": "tconstruct:slime_congealed",
+      "outputMeta": 1
+    },
+    {
+      "fluid": "witchwater",
+      "input": "tconstruct:slime_congealed",
+      "inputMeta": 1,
+      "output": "tconstruct:slime_congealed",
+      "outputMeta": 2
+    }
+  ]
+}
