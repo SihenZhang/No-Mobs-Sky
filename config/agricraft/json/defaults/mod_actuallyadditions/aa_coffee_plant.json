@@ -1,12 +1,12 @@
 {
-  "path": "mod_mysticalagriculture/plants/fluix_plant.json",
+  "path": "mod_actuallyadditions/aa_coffee_plant.json",
   "enabled": true,
-  "id": "fluix_plant",
-  "plant_name": "Fluix",
-  "seed_name": "Fluix Seeds",
+  "id": "aa_coffee_plant",
+  "plant_name": "Coffee",
+  "seed_name": "Coffee Seeds",
   "seed_items": [
     {
-      "item": "mysticalagriculture:fluix_seeds",
+      "item": "actuallyadditions:itemCoffeeSeed",
       "meta": 0,
       "tags": "",
       "ignoreMeta": false,
@@ -18,11 +18,11 @@
   ],
   "description": {
     "translations": {},
-    "default": "Fluix Seeds."
+    "default": "Testing 1, 2, 3."
   },
-  "growth_chance": 0.9,
+  "growth_chance": 1.0,
   "growth_bonus": 0.025,
-  "bonemeal": false,
+  "bonemeal": true,
   "tier": 1,
   "weedable": false,
   "aggressive": false,
@@ -35,10 +35,10 @@
     "products": [
       {
         "min": 1,
-        "max": 5,
-        "chance": 0.9,
+        "max": 3,
+        "chance": 0.95,
         "required": true,
-        "item": "mysticalagriculture:fluix_essence",
+        "item": "actuallyadditions:itemCoffeeBeans",
         "meta": 0,
         "tags": "",
         "ignoreMeta": false,
@@ -57,16 +57,16 @@
   },
   "texture": {
     "render_type": "cross",
-    "seed_texture": "mysticalagriculture:items/fluix_seeds",
+    "seed_texture": "actuallyadditions:items/itemCoffeeSeed",
     "plant_textures": [
-      "mysticalagriculture:blocks/crop0",
-      "mysticalagriculture:blocks/crop1",
-      "mysticalagriculture:blocks/crop2",
-      "mysticalagriculture:blocks/crop2",
-      "mysticalagriculture:blocks/crop3",
-      "mysticalagriculture:blocks/crop4",
-      "mysticalagriculture:blocks/crop4",
-      "mysticalagriculture:blocks/fluix_crop"
+      "actuallyadditions:blocks/blockCoffeeStage1",
+      "actuallyadditions:blocks/blockCoffeeStage2",
+      "actuallyadditions:blocks/blockCoffeeStage2",
+      "actuallyadditions:blocks/blockCoffeeStage3",
+      "actuallyadditions:blocks/blockCoffeeStage4",
+      "actuallyadditions:blocks/blockCoffeeStage4",
+      "actuallyadditions:blocks/blockCoffeeStage5",
+      "actuallyadditions:blocks/blockCoffeeStage6"
     ]
   }
 }

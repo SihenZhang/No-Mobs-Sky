@@ -424,6 +424,42 @@
           "meta": 0,
           "amount": 1,
           "baseChance": 2
+        },
+		{
+          "id": "karatgarden:seed_carrot_base",
+          "meta": 0,
+          "amount": 1,
+          "baseChance": 3
+        },
+		{
+          "id": "actuallyadditions:itemCoffeeSeed",
+          "meta": 0,
+          "amount": 1,
+          "baseChance": 3
+        },
+		{
+          "id": "actuallyadditions:itemRiceSeed",
+          "meta": 0,
+          "amount": 1,
+          "baseChance": 3
+        },
+		{
+          "id": "actuallyadditions:itemCanolaSeed",
+          "meta": 0,
+          "amount": 1,
+          "baseChance": 3
+        },
+		{
+          "id": "actuallyadditions:itemFlaxSeed",
+          "meta": 0,
+          "amount": 1,
+          "baseChance": 3
+        },
+		{
+          "id": "immersiveengineering:seed",
+          "meta": 0,
+          "amount": 1,
+          "baseChance": 3
         }
       ]
     },

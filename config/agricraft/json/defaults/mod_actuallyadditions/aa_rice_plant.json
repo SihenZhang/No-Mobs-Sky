@@ -1,13 +1,13 @@
 {
-  "path": "mod_natura/cotton_plant.json",
+  "path": "mod_actuallyadditions/aa_rice_plant.json",
   "enabled": true,
-  "id": "cotton_plant",
-  "plant_name": "Cotton",
-  "seed_name": "Cotton Seeds",
+  "id": "aa_rice_plant",
+  "plant_name": "Rice",
+  "seed_name": "Rice Seeds",
   "seed_items": [
     {
-      "item": "natura:overworld_seeds",
-      "meta": 1,
+      "item": "actuallyadditions:itemRiceSeed",
+      "meta": 0,
       "tags": "",
       "ignoreMeta": false,
       "ignoreTags": [
@@ -38,8 +38,8 @@
         "max": 3,
         "chance": 0.95,
         "required": true,
-        "item": "natura:materials",
-        "meta": 3,
+        "item": "actuallyadditions:itemFood",
+        "meta": 16,
         "tags": "",
         "ignoreMeta": false,
         "ignoreTags": [],
@@ -57,16 +57,16 @@
   },
   "texture": {
     "render_type": "hash",
-    "seed_texture": "natura:items/seeds/cotton_seeds",
+    "seed_texture": "actuallyadditions:items/itemRiceSeed",
     "plant_textures": [
-      "natura:blocks/crops/cotton/cotton_stage_0",
-      "natura:blocks/crops/cotton/cotton_stage_1",
-      "natura:blocks/crops/cotton/cotton_stage_1",
-      "natura:blocks/crops/cotton/cotton_stage_2",
-      "natura:blocks/crops/cotton/cotton_stage_2",
-      "natura:blocks/crops/cotton/cotton_stage_3",
-      "natura:blocks/crops/cotton/cotton_stage_3",
-      "natura:blocks/crops/cotton/cotton_stage_4"
+      "actuallyadditions:blocks/blockRiceStage1",
+      "actuallyadditions:blocks/blockRiceStage2",
+      "actuallyadditions:blocks/blockRiceStage2",
+      "actuallyadditions:blocks/blockRiceStage3",
+      "actuallyadditions:blocks/blockRiceStage4",
+      "actuallyadditions:blocks/blockRiceStage4",
+      "actuallyadditions:blocks/blockRiceStage5",
+      "actuallyadditions:blocks/blockRiceStage6"
     ]
   }
 }
