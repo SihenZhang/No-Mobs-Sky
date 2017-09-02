@@ -46,6 +46,11 @@ flower.add(<botania:flower:*>);
 val petal = <ore:petalMystical>;
 petal.add(<botania:petal:*>);
 
+# -- Flowers
+val flowers = <ore:flowers>;
+flowers.add(<minecraft:yellow_flower>);
+flowers.add(<minecraft:red_flower:*>);
+
 # -- Actually Addition Crystal
 <ore:itemCrystalRedstone>.add(<actuallyadditions:itemCrystal>);
 <ore:itemCrystalLapis>.add(<actuallyadditions:itemCrystal:1>);

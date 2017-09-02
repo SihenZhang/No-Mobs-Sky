@@ -481,6 +481,69 @@
           "baseChance": 10
         }
       ]
+    },
+	{
+      "id": "exnihiloomnia:dust",
+      "meta": 0,
+      "behavior": "meta_ignored",
+      "rewards": [
+        {
+          "id": "projectred-core:resource_item",
+          "meta": 105,
+          "amount": 1,
+          "baseChance": 6
+        }
+      ]
+    },
+	{
+      "id": "exnihiloomnia:gravel_nether",
+      "meta": 0,
+      "behavior": "meta_ignored",
+      "rewards": [
+        {
+          "id": "projectred-core:resource_item",
+          "meta": 200,
+          "amount": 1,
+          "baseChance": 6
+        },
+		{
+          "id": "projectred-core:resource_item",
+          "meta": 201,
+          "amount": 1,
+          "baseChance": 6
+        },
+		{
+          "id": "projectred-core:resource_item",
+          "meta": 202,
+          "amount": 1,
+          "baseChance": 6
+        },
+		{
+          "id": "bigreactors:minerals",
+          "meta": 1,
+          "amount": 1,
+          "baseChance": 4
+        }
+      ]
+    },
+	{
+      "id": "exnihiloomnia:gravel_ender",
+      "meta": 0,
+      "behavior": "meta_ignored",
+      "rewards": [
+        {
+          "id": "bigreactors:minerals",
+          "meta": 0,
+          "amount": 1,
+          "baseChance": 4
+        },
+		{
+          "id": "quark:biotite",
+          "meta": 0,
+          "amount": 1,
+          "baseChance": 10
+        }
+      ]
     }
   ]
 }
