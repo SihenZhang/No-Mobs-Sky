@@ -36,6 +36,7 @@ recipes.remove(<bloodarsenal:BlockAltareAenigmatica>);
 recipes.remove(<animus:itemaltardiviner>);
 recipes.remove(<bloodmagic:BlockAlchemyTable>);
 recipes.addShaped(<bloodmagic:BlockAlchemyTable>,[[bloodstone,bloodstone,bloodstone],[<bloodarsenal:BlockBloodInfusedWoodenPlanks>,<minecraft:blaze_rod>,<bloodarsenal:BlockBloodInfusedWoodenPlanks>],[<ore:ingotGold>,<bloodmagic:ItemBloodOrb:*>,<ore:ingotGold>]]);
+recipes.remove(<sanguimancy:sacrifice_transfer>);
 
 //Soul Forge
 mods.bloodmagic.SoulForge.removeRecipe(<bloodarsenal:ItemSigilAugmentedHolding>);
