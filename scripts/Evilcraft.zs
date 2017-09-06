@@ -3,7 +3,6 @@
 val bloodstone = <evilcraft:bloodyCobblestone>;
 
 //Fix
-recipes.remove(<evilcraft:bowlOfPromises>);
 recipes.remove(<evilcraft:bloodInfusionCore>);
 recipes.remove(<evilcraft:bloodInfuser>);
 recipes.addShaped(<evilcraft:bloodInfuser>,[[bloodstone,bloodstone,bloodstone],[bloodstone,<evilcraft:bloodInfusionCore>,bloodstone],[bloodstone,bloodstone,bloodstone]]);
@@ -14,9 +13,12 @@ recipes.addShaped(<evilcraft:bloodChest>,[[<bloodarsenal:BlockBloodInfusedWooden
 recipes.remove(<evilcraft:colossalBloodChest>);
 recipes.addShaped(<evilcraft:colossalBloodChest>,[[<bloodarsenal:BlockBloodInfusedWoodenLog>,<evilcraft:reinforcedUndeadPlank>,<bloodarsenal:BlockBloodInfusedWoodenLog>],[<evilcraft:reinforcedUndeadPlank>,<evilcraft:bloodChest>,<evilcraft:reinforcedUndeadPlank>],[<bloodarsenal:BlockBloodInfusedWoodenLog>,<evilcraft:reinforcedUndeadPlank>,<bloodarsenal:BlockBloodInfusedWoodenLog>]]);
 recipes.remove(<evilcraft:darkSpike>);
-recipes.addShaped(<evilcraft:darkSpike>,[[<evilcraft:darkGem>],[<ore:ingotIron>]]);
+recipes.addShaped(<evilcraft:darkSpike>,[[<evilcraft:darkPowerGem>],[<ore:ingotIron>]]);
 recipes.remove(<evilcraft:darkStick>);
-recipes.addShaped(<evilcraft:darkStick>,[[<evilcraft:darkGem>],[<bloodarsenal:BlockBloodInfusedWoodenPlanks>],[<bloodarsenal:BlockBloodInfusedWoodenPlanks>]]);
+recipes.addShaped(<evilcraft:darkStick>,[[<evilcraft:darkPowerGem>],[<bloodarsenal:BlockBloodInfusedWoodenPlanks>],[<bloodarsenal:BlockBloodInfusedWoodenPlanks>]]);
+recipes.remove(<evilcraft:bucketEternalWater>);
+recipes.remove(<evilcraft:eternalWaterBlock>);
+recipes.addShaped(<evilcraft:eternalWaterBlock>,[[<evilcraft:darkPowerGemBlock>,<evilcraft:weatherContainer:2>,<evilcraft:darkPowerGemBlock>],[<evilcraft:weatherContainer:2>,<bloodmagic:ItemComponent>,<evilcraft:weatherContainer:2>],[<evilcraft:darkPowerGemBlock>,<evilcraft:weatherContainer:2>,<evilcraft:darkPowerGemBlock>]]);
 
 // BloodInfuser
 // inputStack, inputFluid, tier, outputStack, duration, xp
