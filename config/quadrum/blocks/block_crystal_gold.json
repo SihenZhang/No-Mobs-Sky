@@ -1,0 +1,16 @@
+{
+    "name": "block_crystal_gold",
+    "creative_tab": "materials",
+	"ore_dictionary": "blockCrystalGold",
+    "traits": {
+        "physical": {
+            "default": {
+                "material": "ROCK",
+                "hardness": 2,
+                "resistance": 2,
+                "light": 0,
+				"level": 2
+            }
+        }
+    }
+}
