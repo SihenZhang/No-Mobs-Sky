@@ -32,7 +32,7 @@ recipes.remove(<cyclicmagic:sack_ender>);
 recipes.addShaped(<cyclicmagic:sack_ender>, [[<ore:itemLeather>, <ore:string>, <ore:itemLeather>], [<ore:itemLeather>, <ore:pearlEnderEye>, <ore:itemLeather>], [<ore:itemLeather>, <ore:chestEnder>, <ore:itemLeather>]]);
 
 recipes.remove(<cyclicmagic:book_ender>);
-recipes.addShaped(<cyclicmagic:book_ender>, [[<randomthings:stableEnderpearl>, <ore:blockEmpoweredCrystalEmerald>, <randomthings:stableEnderpearl>], [<randomthings:stableEnderpearl>, <evilcraft:blook>, <randomthings:stableEnderpearl>], [<randomthings:stableEnderpearl>, <randomthings:stableEnderpearl>, <randomthings:stableEnderpearl>]]);
+recipes.addShaped(<cyclicmagic:book_ender>, [[<randomthings:stableEnderpearl>, <ore:blockEmpoweredCrystalEmerald>, <randomthings:stableEnderpearl>], [<randomthings:stableEnderpearl>, <minecraft:book>, <randomthings:stableEnderpearl>], [<randomthings:stableEnderpearl>, <randomthings:stableEnderpearl>, <randomthings:stableEnderpearl>]]);
 recipes.addShapeless(<cyclicmagic:book_ender>, [<cyclicmagic:book_ender>]);
 
 recipes.remove(<cyclicmagic:charm_void>);

@@ -51,7 +51,7 @@ val flowers = <ore:flowers>;
 flowers.add(<minecraft:yellow_flower>);
 flowers.add(<minecraft:red_flower:*>);
 
-# -- Actually Addition Crystal
+# -- Actually Addition
 <ore:itemCrystalRedstone>.add(<actuallyadditions:itemCrystal>);
 <ore:itemCrystalLapis>.add(<actuallyadditions:itemCrystal:1>);
 <ore:itemCrystalDiamond>.add(<actuallyadditions:itemCrystal:2>);
@@ -76,5 +76,6 @@ flowers.add(<minecraft:red_flower:*>);
 <ore:blockEmpoweredCrystalCoal>.add(<actuallyadditions:blockCrystalEmpowered:3>);
 <ore:blockEmpoweredCrystalEmerald>.add(<actuallyadditions:blockCrystalEmpowered:4>);
 <ore:blockEmpoweredCrystalIron>.add(<actuallyadditions:blockCrystalEmpowered:5>);
+<ore:slimeball>.remove(<actuallyadditions:itemMisc:12>);
 
 print("Initialized '1-InitialScripts.zs'");
