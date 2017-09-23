@@ -78,4 +78,27 @@ flowers.add(<minecraft:red_flower:*>);
 <ore:blockEmpoweredCrystalIron>.add(<actuallyadditions:blockCrystalEmpowered:5>);
 <ore:slimeball>.remove(<actuallyadditions:itemMisc:12>);
 
+# -- Calculator
+<ore:blockAmethyst>.add(<calculator:Material>);
+<ore:blockTanzanite>.add(<calculator:Material:1>);
+<ore:blockEnrichedGold>.add(<calculator:Material:2>);
+<ore:blockReinforcedIron>.add(<calculator:Material:3>);
+<ore:blockWeakenedDiamond>.add(<calculator:Material:4>);
+<ore:blockFlawlessDiamond>.add(<calculator:Material:5>);
+<ore:blockFireDiamond>.add(<calculator:Material:6>);
+<ore:blockElectricDiamond>.add(<calculator:Material:7>);
+<ore:blockEndDiamond>.add(<calculator:Material:8>);
+<ore:blockReinforcedRedstone>.add(<calculator:Material:9>);
+<ore:ingotReinforcedIron>.add(<calculator:ReinforcedIronIngot>);
+<ore:ingotReinforcedRedstone>.add(<calculator:RedstoneIngot>);
+<ore:gemWeakenedDiamond>.add(<calculator:WeakenedDiamond>);
+<ore:gemFlawlessDiamond>.add(<calculator:FlawlessDiamond>);
+<ore:gemFireDiamond>.add(<calculator:FireDiamond>);
+<ore:gemElectricDiamond>.add(<calculator:ElectricDiamond>);
+<ore:gemEndDiamond>.add(<calculator:EndDiamond>);
+<ore:gemLargeAmethyst>.add(<calculator:LargeAmethyst>);
+<ore:shardAmethyst>.add(<calculator:ShardAmethyst>);
+<ore:gemLargeTanzanite>.add(<calculator:LargeTanzanite>);
+<ore:shardTanzanite>.add(<calculator:ShardTanzanite>);
+
 print("Initialized '1-InitialScripts.zs'");

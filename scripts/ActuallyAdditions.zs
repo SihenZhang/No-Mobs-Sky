@@ -13,19 +13,15 @@ recipes.addShaped(<actuallyadditions:blockGiantChest>, [[<minecraft:chest>, <ore
 
 #iron casing
 recipes.remove(<actuallyadditions:blockMisc:9>);
-recipes.addShaped(<actuallyadditions:blockMisc:9>, [[<ore:ingotIron>, <ore:gemQuartzBlack>, <ore:ingotIron>], [<ore:gemQuartzBlack>, <forestry:sturdyMachine>, <ore:gemQuartzBlack>], [<ore:ingotIron>, <ore:gemQuartzBlack>, <ore:ingotIron>]]);
-
-#wooden casing
-recipes.remove(<actuallyadditions:blockMisc:4>);
-recipes.addShaped(<actuallyadditions:blockMisc:4>, [[<ore:plankWood>, <ore:stickTreatedWood>, <ore:plankWood>], [<ore:stickTreatedWood>, <ore:logWood>, <ore:stickTreatedWood>], [<ore:plankWood>, <ore:stickTreatedWood>, <ore:plankWood>]]);
+recipes.addShaped(<actuallyadditions:blockMisc:9>, [[<ore:ingotReinforcedIron>, <ore:gemQuartzBlack>, <ore:ingotReinforcedIron>], [<ore:gemQuartzBlack>, <forestry:sturdyMachine>, <ore:gemQuartzBlack>], [<ore:ingotReinforcedIron>, <ore:gemQuartzBlack>, <ore:ingotReinforcedIron>]]);
 
 #atomic reconstructor
 recipes.remove(<actuallyadditions:blockAtomicReconstructor>);
-recipes.addShaped(<actuallyadditions:blockAtomicReconstructor>, [[<ore:ingotEnrichedGold>, <ore:gemRuby>, <ore:ingotEnrichedGold>], [<ore:ingotRedAlloy>, <actuallyadditions:blockMisc:9>, <ore:ingotRedAlloy>], [<ore:ingotEnrichedGold>, <calculator:ReinforcedIronIngot>, <ore:ingotEnrichedGold>]]);
+recipes.addShaped(<actuallyadditions:blockAtomicReconstructor>, [[<ore:ingotReinforcedIron>, <ore:gemRuby>, <ore:ingotReinforcedIron>], [<ore:dustEnrichedGold>, <actuallyadditions:blockMisc:9>, <ore:dustEnrichedGold>], [<ore:ingotReinforcedIron>, <ore:dustEnrichedGold>, <ore:ingotReinforcedIron>]]);
 
 #coal generator
 recipes.remove(<actuallyadditions:blockCoalGenerator>);
-recipes.addShaped(<actuallyadditions:blockCoalGenerator>, [[<sonarcore:ReinforcedStoneBlock>, <sonarcore:ReinforcedStoneBlock>, <sonarcore:ReinforcedStoneBlock>], [<sonarcore:ReinforcedStoneBlock>, <actuallyadditions:blockMisc:9>, <sonarcore:ReinforcedStoneBlock>], [<ore:gearIron>, <minecraft:furnace>, <ore:gearIron>]]);
+recipes.addShaped(<actuallyadditions:blockCoalGenerator>, [[<ore:reinforcedStone>, <ore:reinforcedStone>, <ore:reinforcedStone>], [<ore:reinforcedStone>, <actuallyadditions:blockMisc:9>, <ore:reinforcedStone>], [<ore:gearIron>, <minecraft:furnace>, <ore:gearIron>]]);
 
 #battery
 recipes.remove(<actuallyadditions:itemBattery>);
@@ -37,34 +33,25 @@ recipes.addShaped(<actuallyadditions:blockEmpowerer>, [[null, <ore:itemCrystalDi
 
 #oil generator
 recipes.remove(<actuallyadditions:blockOilGenerator>);
-recipes.addShaped(<actuallyadditions:blockOilGenerator>, [[<calculator:Material:4>, <actuallyadditions:blockMisc:9>, <calculator:Material:4>], [<calculator:Material:4>, <actuallyadditions:itemMisc:24>, <calculator:Material:4>], [<calculator:Material:4>, <actuallyadditions:blockMisc:9>, <calculator:Material:4>]]);
-recipes.addShapeless(<actuallyadditions:blockOilGenerator>, [<actuallyadditions:blockOilGenerator>] );
+recipes.addShaped(<actuallyadditions:blockOilGenerator>, [[<ore:reinforcedStone>, <actuallyadditions:blockMisc:9>, <ore:reinforcedStone>], [<ore:reinforcedStone>, <actuallyadditions:itemMisc:24>, <ore:reinforcedStone>], [<ore:reinforcedStone>, <actuallyadditions:blockMisc:9>, <ore:reinforcedStone>]]);
 
 #advanced coil
 recipes.remove(<actuallyadditions:itemMisc:8>);
 recipes.addShaped(<actuallyadditions:itemMisc:8>, [[null, <ore:dustEnrichedGold>], [<ore:dustEnrichedGold>, <actuallyadditions:itemMisc:7>, <ore:dustEnrichedGold>], [null, <ore:dustEnrichedGold>]]);
 
-#crusher
+#grinder
 recipes.remove(<actuallyadditions:blockGrinder>);
 recipes.addShaped(<actuallyadditions:blockGrinder>, [[<ore:blockCrystalRedstone>, <ore:blockCrystalIron>, <ore:blockCrystalRedstone>], [<actuallyadditions:itemMisc:7>, <actuallyadditions:blockMisc:9>, <actuallyadditions:itemMisc:7>], [<ore:gearIron>, <excompressum:compressed_block:5>, <ore:gearIron>]]);
 recipes.remove(<actuallyadditions:blockGrinderDouble>);
-recipes.addShaped(<actuallyadditions:blockGrinderDouble>, [[<ore:blockEmpoweredCrystalRedstone>, <ore:blockEmpoweredCrystalIron>, <ore:blockEmpoweredCrystalRedstone>], [<actuallyadditions:blockGrinder>, <actuallyadditions:blockMisc:9>, <actuallyadditions:blockGrinder>], [<ore:gearGold>, <actuallyadditions:itemMisc:8>, <ore:gearGold>]]);
+recipes.addShaped(<actuallyadditions:blockGrinderDouble>, [[<ore:blockReinforcedRedstone>, <ore:blockReinforcedIron>, <ore:blockReinforcedRedstone>], [<actuallyadditions:blockGrinder>, <actuallyadditions:blockMisc:9>, <actuallyadditions:blockGrinder>], [<ore:gearGold>, <actuallyadditions:itemMisc:8>, <ore:gearGold>]]);
 
 #double furnace
 recipes.remove(<actuallyadditions:blockFurnaceDouble>);
 recipes.addShaped(<actuallyadditions:blockFurnaceDouble>, [[<ore:blockCrystalIron>, <ore:blockCrystalRedstone>, <ore:blockCrystalIron>], [<minecraft:furnace>, <actuallyadditions:blockMisc:9>, <minecraft:furnace>], [<actuallyadditions:itemMisc:7>, <ore:blockCrystalCoal>, <actuallyadditions:itemMisc:7>]]);
 
-#coffee machine
-recipes.remove(<actuallyadditions:blockCoffeeMachine>);
-recipes.addShaped(<actuallyadditions:blockCoffeeMachine>, [[null, <actuallyadditions:itemCoffeeBeans>], [<actuallyadditions:itemMisc:7>, <actuallyadditions:blockMisc:9>, <actuallyadditions:itemMisc:7>], [<ore:blockCrystalCoal>, <ore:blockCrystalLapis>, <ore:blockCrystalCoal>]]);
-
 #farmer
 recipes.remove(<actuallyadditions:blockFarmer>);
 recipes.addShaped(<actuallyadditions:blockFarmer>, [[<actuallyadditions:blockCrystal:5>, <actuallyadditions:itemMisc:24>, <actuallyadditions:blockCrystal:5>], [<actuallyadditions:itemMisc:24>, <actuallyadditions:blockMisc:9>, <actuallyadditions:itemMisc:24>], [<actuallyadditions:blockCrystal:5>, <actuallyadditions:itemMisc:24>, <actuallyadditions:blockCrystal:5>]]);
-
-#shock suppressor
-recipes.remove(<actuallyadditions:blockShockSuppressor>);
-recipes.addShaped(<actuallyadditions:blockShockSuppressor>, [[<ore:obsidian>, <ore:blockEmpoweredCrystalCoal>, <ore:obsidian>], [<ore:blockEmpoweredCrystalCoal>, <actuallyadditions:itemMisc:8>, <ore:blockEmpoweredCrystalCoal>], [<ore:obsidian>, <ore:blockEmpoweredCrystalCoal>, <ore:obsidian>]]);
 
 #miner
 recipes.remove(<actuallyadditions:blockMiner>);
@@ -73,10 +60,6 @@ recipes.addShaped(<actuallyadditions:blockMiner>, [[<ore:blockCrystalCoal>, <ore
 #lava factory
 recipes.remove(<actuallyadditions:blockLavaFactoryController>);
 recipes.addShaped(<actuallyadditions:blockLavaFactoryController>, [[<actuallyadditions:itemMisc:8>, <actuallyadditions:blockMisc:9>, <actuallyadditions:itemMisc:8>], [<ore:blockCrystalIron>, <actuallyadditions:itemMisc:8>, <ore:blockCrystalIron>], [<minecraft:lava_bucket>, <minecraft:lava_bucket>, <minecraft:lava_bucket>]]);
-
-#heat collector
-recipes.remove(<actuallyadditions:blockHeatCollector>);
-recipes.addShaped(<actuallyadditions:blockHeatCollector>, [[<ore:blockCrystalIron>, <minecraft:magma>, <ore:blockCrystalIron>], [<actuallyadditions:itemMisc:8>, <actuallyadditions:blockMisc:9>, <actuallyadditions:itemMisc:8>], [<ore:blockCrystalIron>, <ore:blockCrystalIron>, <ore:blockCrystalIron>]]);
 
 #solar
 recipes.remove(<actuallyadditions:blockFurnaceSolar>);

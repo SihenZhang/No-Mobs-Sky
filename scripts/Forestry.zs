@@ -11,8 +11,5 @@ recipes.addShaped(<forestry:beehives:3>, [[<minecraft:log:3>, <ore:vine>, <minec
 recipes.addShaped(<forestry:beehives:5>, [[<ore:blockSnow>, <ore:blockIce>, <ore:blockSnow>], [<ore:blockIce>, <exnihiloomnia:bee_trap_treated>, <ore:blockIce>], [<ore:blockSnow>, <ore:blockIce>, <ore:blockSnow>]]);
 recipes.addShaped(<forestry:beehives:6>, [[<ore:slimeball>, <ore:listAllmushroom>, <ore:slimeball>], [<ore:listAllmushroom>, <exnihiloomnia:bee_trap_treated>,<ore:listAllmushroom>], [<ore:slimeball>, <ore:listAllmushroom>, <ore:slimeball>]]);
 recipes.addShaped(<morebees:hive>, [[<ore:stone>, <exnihiloomnia:ore_broken:*>, <ore:stone>], [<exnihiloomnia:ore_broken:*>, <exnihiloomnia:bee_trap_treated>, <exnihiloomnia:ore_broken:*>], [<ore:stone>, <exnihiloomnia:ore_broken:*>, <ore:stone>]]);
-recipes.addShaped(<magicbees:hiveBlock>, [[<magicbees:mysteriousMagnet>, <ore:flowerMystical>, <magicbees:mysteriousMagnet>], [<ore:flowerMystical>, <exnihiloomnia:bee_trap_treated>, <ore:flowerMystical>], [<magicbees:mysteriousMagnet>, <ore:flowerMystical>, <magicbees:mysteriousMagnet>]]);
-recipes.addShaped(<magicbees:hiveBlock:1>, [[<magicbees:mysteriousMagnet>, <bloodmagic:ItemBloodOrb>, <magicbees:mysteriousMagnet>], [<bloodmagic:ItemBloodOrb>, <exnihiloomnia:bee_trap_treated>, <bloodmagic:ItemBloodOrb>], [<magicbees:mysteriousMagnet>, <bloodmagic:ItemBloodOrb>, <magicbees:mysteriousMagnet>]]);
-recipes.addShaped(<magicbees:hiveBlock:2>, [[<magicbees:mysteriousMagnet>, <ore:gemDark>, <magicbees:mysteriousMagnet>], [<ore:gemDark>, <exnihiloomnia:bee_trap_treated>, <ore:gemDark>], [<magicbees:mysteriousMagnet>, <ore:gemDark>, <magicbees:mysteriousMagnet>]]);
 
 print("Initialized 'Forestry.zs'");
