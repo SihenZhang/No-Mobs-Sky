@@ -1,45 +1,32 @@
-#Evilcraft
+#Name: Evilcraft.zs
+#Author: baka943
+
+import mods.bloodmagic.AlchemyTable;
+import mods.bloodmagic.Altar;
 
 val bloodstone = <evilcraft:bloodyCobblestone>;
+val inertiron = <bloodarsenal:ItemBloodArsenalBase.InertBloodInfusedIronIngot>;
+val yuanjie000 = <saltfishtweaks:salty_fish_bottle>;
+val star = <hardcorewither:craftingItem>;
 
-//Fix
-recipes.remove(<evilcraft:bloodInfusionCore>);
-recipes.remove(<evilcraft:bloodInfuser>);
-recipes.addShaped(<evilcraft:bloodInfuser>,[[bloodstone,bloodstone,bloodstone],[bloodstone,<evilcraft:bloodInfusionCore>,bloodstone],[bloodstone,bloodstone,bloodstone]]);
-recipes.remove(<evilcraft:sanguinaryEnvironmentalAccumulator>);
-recipes.addShaped(<evilcraft:sanguinaryEnvironmentalAccumulator>,[[bloodstone,<evilcraft:environmentalAccumulationCore>,bloodstone],[<bloodarsenal:BlockBloodInfusedIron>,<evilcraft:garmonbozia>,<bloodarsenal:BlockBloodInfusedIron>],[bloodstone,<evilcraft:bloodInfusionCore>,bloodstone]]);
-recipes.remove(<evilcraft:bloodChest>);
-recipes.addShaped(<evilcraft:bloodChest>,[[<bloodarsenal:BlockBloodInfusedWoodenPlanks>,<bloodarsenal:BlockBloodInfusedWoodenPlanks>,<bloodarsenal:BlockBloodInfusedWoodenPlanks>],[<bloodarsenal:BlockBloodInfusedWoodenPlanks>,<evilcraft:bloodInfusionCore>,<bloodarsenal:BlockBloodInfusedWoodenPlanks>],[<bloodarsenal:BlockBloodInfusedWoodenPlanks>,<bloodarsenal:BlockBloodInfusedWoodenPlanks>,<bloodarsenal:BlockBloodInfusedWoodenPlanks>]]);
-recipes.remove(<evilcraft:colossalBloodChest>);
-recipes.addShaped(<evilcraft:colossalBloodChest>,[[<bloodarsenal:BlockBloodInfusedWoodenLog>,<evilcraft:reinforcedUndeadPlank>,<bloodarsenal:BlockBloodInfusedWoodenLog>],[<evilcraft:reinforcedUndeadPlank>,<evilcraft:bloodChest>,<evilcraft:reinforcedUndeadPlank>],[<bloodarsenal:BlockBloodInfusedWoodenLog>,<evilcraft:reinforcedUndeadPlank>,<bloodarsenal:BlockBloodInfusedWoodenLog>]]);
-recipes.remove(<evilcraft:darkSpike>);
-recipes.addShaped(<evilcraft:darkSpike>,[[<evilcraft:darkPowerGem>],[<ore:ingotIron>]]);
-recipes.remove(<evilcraft:darkStick>);
-recipes.addShaped(<evilcraft:darkStick>,[[<evilcraft:darkPowerGem>],[<bloodarsenal:BlockBloodInfusedWoodenPlanks>],[<bloodarsenal:BlockBloodInfusedWoodenPlanks>]]);
-recipes.remove(<evilcraft:bucketEternalWater>);
-recipes.remove(<evilcraft:eternalWaterBlock>);
-recipes.addShaped(<evilcraft:eternalWaterBlock>,[[<evilcraft:darkPowerGemBlock>,<evilcraft:weatherContainer:2>,<evilcraft:darkPowerGemBlock>],[<evilcraft:weatherContainer:2>,<bloodmagic:ItemComponent>,<evilcraft:weatherContainer:2>],[<evilcraft:darkPowerGemBlock>,<evilcraft:weatherContainer:2>,<evilcraft:darkPowerGemBlock>]]);
+print("Initializing 'Evilcraft.zs'...");
 
-// BloodInfuser
-// inputStack, inputFluid, tier, outputStack, duration, xp
-//mods.evilcraft.BloodInfuser.addRecipe(<minecraft:melon>,<liquid:evilcraftblood>*100,0,<minecraft:stick>,10,10);
-// inputStack, inputFluid, tier, outputStack, duration, xp
-//mods.evilcraft.BloodInfuser.removeRecipe(<minecraft:melon>,<liquid:evilcraftblood>*100,0,<minecraft:melon>,10,10);
-// outputStack
-//mods.evilcraft.BloodInfuser.removeRecipesWithOutput(<minecraft:melon>);
-mods.evilcraft.BloodInfuser.removeRecipesWithOutput(<minecraft:leather>);
-mods.evilcraft.BloodInfuser.removeRecipesWithOutput(<minecraft:skull:2>);
-mods.evilcraft.BloodInfuser.removeRecipesWithOutput(<minecraft:skull>);
-mods.evilcraft.BloodInfuser.removeRecipesWithOutput(<minecraft:skull:1>);
-mods.evilcraft.BloodInfuser.removeRecipesWithOutput(<evilcraft:bloodyCobblestone>);
-mods.evilcraft.BloodInfuser.removeRecipesWithOutput(<evilcraft:undeadSapling>);
-mods.evilcraft.BloodInfuser.removeRecipesWithOutput(<minecraft:redstone>);
-mods.evilcraft.BloodInfuser.removeRecipesWithOutput(<evilcraft:corruptedTear>);
+#BloodInfusionCore
+Altar.addRecipe(<evilcraft:bloodInfusionCore>, 2, 30000, 100, 100, [<evilcraft:darkPowerGem>]);
 
-// EnvironmentalAccumulator
-// inputStack, inputWeather, outputStack, outputWeather, duration, cooldownTime, processingSpeed
-//mods.evilcraft.EnvironmentalAccumulator.addRecipe(<minecraft:melon>,"RAIN",<minecraft:stick>,"CLEAR",10,10,-1.0);
-// inputStack, inputWeather, outputStack, outputWeather, duration, cooldownTime, processingSpeed
-//mods.evilcraft.EnvironmentalAccumulator.removeRecipe(<minecraft:stick>,"RAIN",<minecraft:stick>,"CLEAR",10,10,-1.0);
-// outputStack, outputWeather
-//mods.evilcraft.EnvironmentalAccumulator.removeRecipesWithOutput(<minecraft:melon>,"CLEAR");
+#DarkPowerGem
+Altar.addRecipe(<evilcraft:darkPowerGem>, 1, 10000, 10, 20, [<evilcraft:darkGem>]);
+
+#EnvironmentalAccumulationCore
+AlchemyTable.addRecipe(<evilcraft:environmentalAccumulationCore>, 500000, 5000, 5, [<bloodmagic:ItemComponent>, <bloodmagic:ItemComponent:1>, <bloodmagic:ItemComponent:2>, <bloodmagic:ItemComponent:5>, star]);
+
+#Bloodstone
+Altar.addRecipe(bloodstone, 1, 1000, 50, 200, [<minecraft:cobblestone>]);
+
+#CorruptedTear
+Altar.addRecipe(<evilcraft:corruptedTear>, 4, 100000, 100, 100, [<evilcraft:enderTear>]);
+
+#Blook
+Altar.addRecipe(<evilcraft:blook>, 3, 100000, 1, 100, [<minecraft:enchanted_book>]);
+
+print("Initialized 'Evilcraft.zs'");

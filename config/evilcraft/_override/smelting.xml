@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<recipes>
+    
+    <recipe type="smelting">
+        <condition type="config">burningGemStone</condition>
+        <condition type="config">darkBlock</condition>
+        <input>
+            <item>evilcraft:darkPowerGemBlock</item>
+        </input>
+        <output>
+            <item>evilcraft:burningGemStone</item>
+            <xp>0</xp>
+        </output>
+    </recipe>
+    
+    <recipe type="smelting">
+        <condition type="config">hardenedBloodShard</condition>
+        <condition type="config">hardenedBlood</condition>
+        <input>
+            <item>evilcraft:hardenedBlood</item>
+        </input>
+        <output>
+            <item amount="9">evilcraft:hardenedBloodShard</item>
+            <xp>0</xp>
+        </output>
+    </recipe>
+    
+</recipes>

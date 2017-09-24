@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<recipes>
+
+	<recipe type="shapeless"> <!-- darkGem -->
+		<condition type="config">darkGem</condition>
+		<condition type="config">darkBlock</condition>
+		<input>
+			<item>evilcraft:darkBlock</item>
+		</input>
+		<output>
+			<item amount="9">evilcraft:darkGem</item>
+		</output>
+	</recipe>
+
+	<recipe type="shapeless"> <!-- undeadPlank -->
+		<condition type="config">undeadLog</condition>
+		<condition type="config">undeadPlank</condition>
+		<input>
+			<item>evilcraft:undeadLog</item>
+		</input>
+		<output>
+			<item amount="4">evilcraft:undeadPlank</item>
+		</output>
+	</recipe>
+
+    <recipe type="shapeless"> <!-- darkPowerGem -->
+        <condition type="config">darkPowerGem</condition>
+        <condition type="config">darkPowerGemBlock</condition>
+        <input>
+            <item>evilcraft:darkPowerGemBlock</item>
+        </input>
+        <output>
+            <item amount="9">evilcraft:darkPowerGem</item>
+        </output>
+    </recipe>
+
+    <recipe type="shapeless"> <!-- bowlOfPromises -->
+        <condition type="config">bowlOfPromises</condition>
+        <condition type="config">darkGemCrushed</condition>
+        <input>
+            <item meta="1">evilcraft:bowlOfPromises</item>
+            <item>evilcraft:darkGemCrushed</item>
+            <item>evilcraft:darkGemCrushed</item>
+        </input>
+        <output>
+            <item meta="0">evilcraft:bowlOfPromises</item>
+        </output>
+    </recipe>
+
+    <recipe type="shapeless"> <!-- promise -->
+        <condition type="config">bowlOfPromises</condition>
+        <condition type="config">promise</condition>
+        <input>
+            <item type="oredict">materialBowlOfPromises0</item>
+            <item meta="0">evilcraft:promiseAcceptor</item>
+            <item>projecte:item.pe_covalence_dust</item>
+        </input>
+        <output>
+            <item meta="0">evilcraft:promise</item>
+        </output>
+    </recipe>
+
+    <recipe type="shapeless"> <!-- promise -->
+        <condition type="config">bowlOfPromises</condition>
+        <condition type="config">promise</condition>
+        <input>
+            <item type="oredict">materialBowlOfPromises1</item>
+            <item meta="1">evilcraft:promiseAcceptor</item>
+            <item meta="1">projecte:item.pe_covalence_dust</item>
+        </input>
+        <output>
+            <item meta="1">evilcraft:promise</item>
+        </output>
+    </recipe>
+
+    <recipe type="shapeless"> <!-- promise -->
+        <condition type="config">bowlOfPromises</condition>
+        <condition type="config">promise</condition>
+        <input>
+            <item type="oredict">materialBowlOfPromises2</item>
+            <item meta="2">evilcraft:promiseAcceptor</item>
+            <item meta="2">projecte:item.pe_covalence_dust</item>
+        </input>
+        <output>
+            <item meta="2">evilcraft:promise</item>
+        </output>
+    </recipe>
+
+    <recipe type="shapeless"> <!-- promise -->
+        <condition type="config">bowlOfPromises</condition>
+        <condition type="config">promise</condition>
+        <input>
+            <item type="oredict">materialBowlOfPromises1</item>
+            <item meta="0">evilcraft:promiseAcceptor</item>
+            <item>minecraft:redstone_block</item>
+        </input>
+        <output>
+            <item meta="3">evilcraft:promise</item>
+        </output>
+    </recipe>
+
+    <recipe type="shapeless"> <!-- promise -->
+        <condition type="config">bowlOfPromises</condition>
+        <condition type="config">promise</condition>
+        <input>
+            <item type="oredict">materialBowlOfPromises1</item>
+            <item meta="0">evilcraft:promiseAcceptor</item>
+            <item>minecraft:lapis_block</item>
+        </input>
+        <output>
+            <item meta="4">evilcraft:promise</item>
+        </output>
+    </recipe>
+
+    <recipe type="shapeless"> <!-- gemStoneTorch -->
+        <condition type="config">burningGemStone</condition>
+        <condition type="config">darkStick</condition>
+        <condition type="config">gemStoneTorch</condition>
+        <input>
+            <item>evilcraft:burningGemStone</item>
+            <item>evilcraft:darkStick</item>
+        </input>
+        <output>
+            <item amount="4">evilcraft:gemStoneTorch</item>
+        </output>
+    </recipe>
+
+    <recipe type="shapeless"> <!-- water_bucket -->
+        <condition type="config">bucketEternalWater</condition>
+        <input>
+            <item>evilcraft:bucketEternalWater</item>
+            <item>minecraft:bucket</item>
+        </input>
+        <output>
+            <item>minecraft:water_bucket</item>
+        </output>
+    </recipe>
+
+    <recipe type="shapeless"> <!-- bloodWaxedCoal -->
+        <condition type="config">bloodWaxedCoal</condition>
+        <condition type="config">bloodWaxedCoalBlock</condition>
+        <input>
+            <item>evilcraft:bloodWaxedCoalBlock</item>
+        </input>
+        <output>
+            <item amount="9">evilcraft:bloodWaxedCoal</item>
+        </output>
+    </recipe>
+
+    <recipe type="shapeless"> <!-- bloodWaxedCoal -->
+        <condition type="config">bloodWaxedCoal</condition>
+        <input>
+            <item>projecte:item.pe_philosophers_stone</item>
+			<item>projecte:item.pe_fuel</item>
+        </input>
+        <output>
+            <item amount="4">evilcraft:bloodWaxedCoal</item>
+        </output>
+    </recipe>
+
+    <recipe type="shapeless"> <!-- rejuvenatedFlesh -->
+        <condition type="config">rejuvenatedFlesh</condition>
+        <condition type="config">garmonbozia</condition>
+        <input>
+            <item type="oredict">materialFlesh</item>
+            <item>evilcraft:garmonbozia</item>
+        </input>
+        <output>
+            <item>evilcraft:rejuvenatedFlesh</item>
+        </output>
+    </recipe>
+
+    <recipe type="shapeless"> <!-- goldenString -->
+        <condition type="config">goldenString</condition>
+        <input>
+            <item>bloodarsenal:ItemBlockSpecialBloodArsenal.BloodBurnedString</item>
+            <item type="oredict">ingotGold</item>
+			<item>sccraftingrunes:ItemRareMat</item>
+        </input>
+        <output>
+            <item>evilcraft:goldenString</item>
+        </output>
+    </recipe>
+
+</recipes>
